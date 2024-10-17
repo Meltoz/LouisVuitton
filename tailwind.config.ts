@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+          futura: ["var(--font-futura-mono)"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -16,4 +19,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
