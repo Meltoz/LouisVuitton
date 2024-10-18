@@ -18,7 +18,7 @@ export default function RootLayout({
       <body
         className="font-futura antialiased"
       >
-      <header>
+      <header style={{zIndex:999}}>
         <Menu />
       </header>
       <aside className="z-50">

@@ -3,6 +3,7 @@
 import {useEffect, useRef} from "react";
 import {gsap} from 'gsap';
 import {ScrollTrigger} from "gsap/ScrollTrigger";
+import "./video.css";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -32,8 +33,8 @@ export const Video = () =>{
     }, []);
 
     return (
-        <div className="absolute -top-0 -z-10">
-            <video ref={videoRef} autoPlay loop muted>
+        <div className="absolute -top-0 -z-10 video">
+            <video ref={videoRef} autoPlay loop muted className="">
                 <source src="videos/12487101_1920_1080_25fps.mp4"/>
             </video>
         </div>

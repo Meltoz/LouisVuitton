@@ -1,6 +1,7 @@
 "use client";
 
-import {useEffect, useRef} from "react";
+import React from "react";
+import { useEffect, useRef} from "react";
 import {gsap} from 'gsap'
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 
@@ -25,6 +26,7 @@ export const Bristen = () => {
 
     return (
         <div className="">
+            <p className="text-center text-4xl">The Victory travels with Louis Vuitton</p>
             <div className="h-[158vh]">
                 <h1 ref={bristenRef} className="text-center h-full text-[34em]">BRISTEN</h1>
             </div>
@@ -37,8 +39,6 @@ export const Bristen = () => {
                 <p>designed with the essence of the collaboration between Louis Vuitton and Logitech:</p>
                 <p>creativity, premium materials and performance.</p>
             </div>
-
         </div>
-
     )
 }
