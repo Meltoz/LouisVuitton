@@ -4,7 +4,7 @@ import {Language} from "@/components/language/language";
 export const Menu = () =>{
 
     return(
-        <div className="z-10">
+        <div className="z-10 font-futura font-semibold">
             <div className="flex items-center">
                 <div className="uppercase p-8 text-xl basis-1/10 shrink-0">
                     louis vuitton <br/> <span className="text-blue-400">& Logitech</span>
@@ -15,10 +15,10 @@ export const Menu = () =>{
                             Collection
                         </li>
                         <li>
-                            Collection
+                            The Partnership
                         </li>
                         <li>
-                            Collection
+                            Our Event
                         </li>
                     </ul>
                 </div>

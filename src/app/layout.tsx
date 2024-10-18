@@ -4,11 +4,11 @@ import "./globals.css";
 import {Menu} from "@/components/menu/menu";
 import {Progress} from "@/components/progress/progress";
 
-const FuturaPT = localFont({
-  src: "./fonts/FuturaCyrillicMedium.woff",
-  variable: "--font-futura-mono",
-  weight: "100 900",
-});
+const Futura = localFont({
+    src: './fonts/FuturaCyrillicMedium.woff',
+    variable: '--font-futura',
+
+})
 
 export const metadata: Metadata = {
   title: "Louis Vuitton x Logitech",

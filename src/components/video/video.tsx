@@ -10,7 +10,7 @@ export const Video = () =>{
     const videoRef = useRef<HTMLVideoElement>();
 
     useEffect(() =>{
-        if(typeof  window !=='undefined') {
+        if(typeof window !=='undefined') {
             const videoElement = videoRef.current;
 
             gsap.to(videoElement, {
