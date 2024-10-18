@@ -13,6 +13,8 @@ const config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        dinner: '#3A241E',
+        whiteMedium: '#FCF4E6'
       },
     },
   }

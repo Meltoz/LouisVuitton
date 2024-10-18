@@ -28,7 +28,7 @@ export const Progress = () => {
             <div className="top-0 left-0 h-0.5 progress w-2/3">
                 <div ref={progressBarRef} className="w-0 h-0.5 bg-neutral-300"></div>
             </div>
-            <p className="w-1/3">Louis Vuitton x Logitech</p>
+            <p className="w-1/3 text-neutral-300">Louis Vuitton x Logitech</p>
         </div>
     )
 }
