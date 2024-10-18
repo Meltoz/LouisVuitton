@@ -7,15 +7,15 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-          futura: ["var(--font-futura)"]
+          futura: ['Futura'],
+          ivy: ['ivy']
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
-  },
-  plugins: [],
+  }
 };
 
 export default config;

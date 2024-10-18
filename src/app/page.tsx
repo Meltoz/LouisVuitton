@@ -1,20 +1,14 @@
-import {Video} from "@/components/video/video";
 import {Bristen} from "@/components/bristen/bristen";
+import {Partner} from "@/components/patner/partner";
+import {Hero} from "@/components/hero/hero";
 
 
 export default function Home() {
     return (
         <div>
-            <Video/>
-            <div className="mx-12">
-                <div className="h-96">p</div>
-                <div className="h-96">p</div>
-                <div className="h-96">p</div>
-                <div className="h-96">p</div>
-                <div className="h-96">p</div>
-                <Bristen />
-            </div>
-
+            <Hero />
+            <Partner/>
+            <Bristen/>
         </div>
     );
 }
