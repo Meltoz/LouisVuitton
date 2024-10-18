@@ -2,7 +2,7 @@ export const Footer = () =>{
     const links = ['Sitemap', 'Legal & Privacy', 'Cookies', 'MSA Transparency'];
     const socials = ['instagram', 'facebook', 'youtube', 'linkedin', 'basket']
     return(
-        <div class="relative mt-96 pb-80 overflow-hidden ml-4">
+        <div className="relative mt-96 pb-80 overflow-hidden ml-4">
             <div className="flex justify-between">
                 <div className="flex justify-around w-1/3">
                     {links.map(l => (<p key={l}>{l}</p>))}
