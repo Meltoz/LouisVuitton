@@ -25,16 +25,16 @@ export const Bristen = () => {
     }, [])
 
     return (
-        <div className="">
+        <div className="mt-36">
             <p className="text-center text-4xl">The Victory travels with Louis Vuitton</p>
-            <div className="h-[158vh]">
+            <div className="h-[161vh]">
                 <h1 ref={bristenRef} className="text-center h-full text-[34em]">BRISTEN</h1>
             </div>
             <div>
                 <img src="./imgs/malette.png" className="relative h-[70vh] left-1/2 -translate-x-1/2 -top-72" />
             </div>
             <div className="text-center text-2xl -mt-36 mb-32">
-                <p >Buying Our peripherals collectiona lso means getting a unique
+                <p >Buying our peripherals collectiona lso means getting a unique
                     lightweight trunk,</p>
                 <p>designed with the essence of the collaboration between Louis Vuitton and Logitech:</p>
                 <p>creativity, premium materials and performance.</p>

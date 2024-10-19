@@ -11,7 +11,7 @@ export const Partner = () => {
                     <h3 className="font-semibold">Our unique craftmanship</h3>
                     <p className="">Since 1854</p>
                 </div>
-                <div className="h-[35rem] bg-neutral-500 z-10"></div>
+                <div className="h-[35rem] bg-neutral-500 z-10 text-[10em] flex items-center justify-center">+</div>
                 <p className="contour font-ivy text-[18em] font-medium absolute -bottom-[17rem] left-28 -z-30">Logitech</p>
                 <div className="uppercase absolute right-9 -bottom-[3.8rem] text-4xl text-right">
                     <h3 className="font-semibold">the most premium brand</h3>
