@@ -21,7 +21,7 @@ export const Hero = () => {
                 scrollTrigger: {
                     trigger: panneauRef.current,
                     start: 'top top-=50',
-                    toggleActions: 'play none none reverse'
+                    toggleActions: 'play none none none'
                 }
             }
         )

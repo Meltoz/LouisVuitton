@@ -12,13 +12,13 @@ export const Menu = () =>{
                 <div className="basis-1/3 shrink-0 font-semibold">
                     <ul className="flex justify-around">
                         <li>
-                            Collection
+                            <a href="#collection">Collection</a>
                         </li>
                         <li>
-                            The Partnership
+                            <a href="#partner">The Partnership</a>
                         </li>
                         <li>
-                            Our Event
+                            <a href="#event">Our Event</a>
                         </li>
                     </ul>
                 </div>

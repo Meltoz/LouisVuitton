@@ -45,11 +45,20 @@ export default function Home() {
     return (
         <div>
             <Video />
-            <Hero/>
+            <div id="collection">
+                <Hero/>
+            </div>
+
             <Partner/>
-            <Carousel data={tab}/>
+            <div id="partner">
+                <Carousel data={tab}/>
+            </div>
+
             <Bristen/>
-            <Dinner/>
+            <div id="event">
+                <Dinner/>
+            </div>
+
             <Footer/>
         </div>
     );
