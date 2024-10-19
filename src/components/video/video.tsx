@@ -33,9 +33,9 @@ export const Video = () =>{
     }, []);
 
     return (
-        <div className="absolute -top-0 -z-10 video">
-            <video ref={videoRef} autoPlay loop muted className="">
-                <source src="videos/12487101_1920_1080_25fps.mp4"/>
+        <div className="absolute top-20 video left-1/2 -translate-x-1/2">
+            <video ref={videoRef} autoPlay loop muted >
+                <source src="videos/products.mp4" type="video/mp4" />
             </video>
         </div>
     )

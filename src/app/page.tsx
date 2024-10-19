@@ -44,7 +44,7 @@ export default function Home() {
 
     return (
         <div>
-            <Video/>
+            <Video />
             <Hero/>
             <Partner/>
             <Carousel data={tab}/>

@@ -24,7 +24,7 @@ export const Progress = () => {
     });
 
     return (
-        <div className="vertical fixed top-[60%] -left-64 m-0 font-futura font-semibold flex items-center gap-5 w-[600px]">
+        <div className="vertical fixed top-[60%] -left-64 m-0 font-futura flex items-center gap-5 w-[600px]">
             <div className="top-0 left-0 h-0.5 progress w-2/3">
                 <div ref={progressBarRef} className="w-0 h-0.5 bg-neutral-300"></div>
             </div>
