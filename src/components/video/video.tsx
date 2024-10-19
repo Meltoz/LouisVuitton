@@ -30,7 +30,7 @@ export const Video = () =>{
     return (
         <div className="absolute top-0 video z-10">
             <video ref={videoRef} autoPlay loop muted className="-z-10">
-                <source src="videos/placeholder.mp4" type="video/mp4" />
+                <source src="videos/hero.mp4" type="video/mp4" />
             </video>
         </div>
     )
