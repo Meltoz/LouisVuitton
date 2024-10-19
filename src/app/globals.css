@@ -25,6 +25,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.header{
+  z-index: 999;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

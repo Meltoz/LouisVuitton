@@ -23,7 +23,7 @@ export const Carousel: React.FC<TabProps> = ({data}) => {
     return (
         <div className="w-full h-[130vh] relative">
             <div className="absolute top-[10%] left-1/2 -translate-x-1/2">
-                <div className="flex justify-center space-x-4 p-4 pb-0 border-b border-gray-300">
+                <div className="flex justify-center space-x-4 p-4 pb-0 border-b-2 border-neutral-400">
                     {data.map((tab, index) => (
                         <button
                             key={index}

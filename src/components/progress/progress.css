@@ -1,6 +1,6 @@
 .vertical{
     transform: rotate(-90deg);
-    z-index: 9;
+    z-index: 1;
 }
 
 .progress {

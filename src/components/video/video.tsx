@@ -3,7 +3,6 @@
 import {useEffect, useRef} from "react";
 import {gsap} from 'gsap';
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import "./video.css";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -12,20 +11,16 @@ export const Video = () =>{
 
     useEffect(() =>{
         if(typeof window !=='undefined') {
-            const videoElement = videoRef.current;
 
-            gsap.to(videoElement, {
-                x: '100vw',
-                duration: 2,
-                opacity:0,
+            gsap.fromTo(videoRef.current,{
+                x: 0
+            }, {
+                x: '66vw',
                 scrollTrigger: {
-                    trigger: videoElement,
+                    trigger: videoRef.current,
                     start: 'top top',
-                    end: '+=100px',
-                    once: true
-                },
-                onComplete: () =>{
-                    videoElement.style.display = 'none';
+                    end: 'bottom 20%',
+                    toggleActions: 'play none none reverse'
                 }
             })
         }
@@ -33,9 +28,9 @@ export const Video = () =>{
     }, []);
 
     return (
-        <div className="absolute top-20 video left-1/2 -translate-x-1/2">
-            <video ref={videoRef} autoPlay loop muted >
-                <source src="videos/products.mp4" type="video/mp4" />
+        <div className="absolute top-0 video z-10">
+            <video ref={videoRef} autoPlay loop muted className="-z-10">
+                <source src="videos/placeholder.mp4" type="video/mp4" />
             </video>
         </div>
     )
