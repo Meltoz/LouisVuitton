@@ -3,7 +3,7 @@ import {Language} from "@/components/language/language";
 
 export const Menu = () =>{
     return(
-        <div className="relative z-20">
+        <div className="relative z-20 text-neutral-400">
             <div className="flex items-center">
                 <div className="uppercase p-8 text-2xl basis-1/10 shrink-0">
                     louis vuitton <br/> <span className="text-blue-400">& Logitech</span>
