@@ -17,7 +17,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body
-            className="font-futura antialiased"
+            className="font-futura antialiased overflow-x-hidden"
         >
         <Menu/>
         <Video/>
