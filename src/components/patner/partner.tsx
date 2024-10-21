@@ -7,11 +7,15 @@ export const Partner = () => {
             <div className="relative my-96">
                 <p className="font-ivy text-[14em] contour font-medium absolute -top-[15rem] -z-30 right-28">Louis
                     Vuitton</p>
-                <div className="absolute uppercase text-4xl left-32 -top-[3.8rem]">
+                <div className="absolute uppercase text-4xl left-32 -top-[3.8rem] z-10">
                     <h3 className="font-semibold">Our unique craftmanship</h3>
                     <p className="">Since 1854</p>
                 </div>
-                <div className="h-[35rem] bg-neutral-500 z-10 text-[10em] flex items-center justify-center">+</div>
+                <div className="relative">
+                    <video autoPlay muted loop>
+                        <source src="/videos/partnership.mp4" type="video/mp4" />
+                    </video>
+                </div>
                 <p className="contour font-ivy text-[13em] font-medium absolute -bottom-[13rem] left-28 -z-30">Logitech</p>
                 <div className="uppercase absolute right-9 -bottom-[3.8rem] text-4xl text-right">
                     <h3 className="font-semibold">the most premium brand</h3>
