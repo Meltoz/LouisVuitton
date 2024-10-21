@@ -32,7 +32,7 @@ export const Bristen = () => {
             <div>
                 <img src="./imgs/malette.png" className="relative h-[70vh] left-1/2 -translate-x-1/2 -top-72" />
             </div>
-            <div className="text-center text-2xl -mt-36 pb-64 bg-white">
+            <div className="text-center text-2xl pt-24 -mt-24 pb-64 bg-white">
                 <p >Buying our peripherals collection also means getting a unique
                     lightweight trunk,</p>
                 <p>designed with the essence of the collaboration between Louis Vuitton and Logitech:</p>
